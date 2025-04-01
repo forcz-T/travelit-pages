@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelit - Navigation</title>
+  <link rel="icon" href="./assets/images/favicon.png">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f9f9f9;
+    }
+    
+    .container {
+      text-align: center;
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 90%;
+    }
+    
+    h1 {
+      color: #007AFF;
+      margin-bottom: 20px;
+    }
+    
+    .logo {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+    
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 30px;
+    }
+    
+    .button {
+      background-color: #007AFF;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    
+    .button:hover {
+      background-color: #0062cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🧳</div>
+    <h1>Travelit App</h1>
+    <p>Select a page to view</p>
+    
+    <div class="button-container">
+      <a href="pages/home.html" class="button">Home Page</a>
+      <a href="pages/email-verification-redirect.html" class="button">Email Verification Page</a>
+    </div>
+  </div>
+</body>
+</html> 
