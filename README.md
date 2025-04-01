@@ -1,2 +1,3 @@
-# travelit-auth-redirect
-Redirect to Authenticate users to database
+# travelit-pages
+- Redirect to Authenticate users to database
+- Temporary Home Page for APIs
